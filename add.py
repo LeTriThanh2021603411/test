@@ -17,7 +17,7 @@ class Add:
             # convert matrix_a and matrix_b to int
             for i in range(self.rows_get):
                 for j in range(self.cols_get):
-                    self.matrix_a[i][j] = float(self.matrix_a[i][j])
+                    self.matrix_a[i][j] = int(self.matrix_a[i][j])
             for i in range(self.rows_get):
                 for j in range(self.cols_get):
                     self.matrix_b[i][j] = float(self.matrix_b[i][j])
